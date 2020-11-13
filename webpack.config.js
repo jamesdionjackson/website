@@ -6,6 +6,7 @@ const config = {
   entry: {
     repl: "./js/repl/index.js",
     minirepl: "./js/minirepl.js",
+    assumptions: "./js/assumptions.js",
   },
   output: {
     // Don't bother with hashing/versioning the filename - Netlify does it
